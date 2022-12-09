@@ -1,0 +1,25 @@
+type resistor
+new seq
+	res 1 R R1
+	new par	
+		new seq
+			res 2 R R2
+			new par
+				new seq
+					res 3 R R3
+					res 4 R R4
+				end seq
+				res 5 R R5
+			end par
+		end seq
+		res 6 R R6
+		new par
+			res 8 R R8
+			new seq
+				res 7 R R7
+				res 9 R R9
+			end seq
+		end par
+	end par
+	res 10 R R10
+end seq

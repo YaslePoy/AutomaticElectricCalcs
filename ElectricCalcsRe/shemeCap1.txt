@@ -1,0 +1,16 @@
+new seq
+	new par
+		new seq
+			cap 1 C 10
+			new par
+				new seq
+					cap 2 C 12
+					cap 3 C 7
+				end seq
+				cap 4 C 11
+			end par
+		end seq
+	cap 5 C 8 Q 16
+	end par
+	cap 6 C 5
+end seq

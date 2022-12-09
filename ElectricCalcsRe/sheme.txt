@@ -1,0 +1,15 @@
+
+new par
+	new seq
+		res 1 R R1
+		new par
+			new seq
+				res 2 R 14
+				res 3 R 18 U 90
+			end seq
+			res 5 R 6
+		end par
+		res 4 R 8
+	end seq
+	res 6 R 4
+end par

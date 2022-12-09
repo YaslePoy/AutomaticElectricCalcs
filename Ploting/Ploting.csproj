@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ElectricCalcsRe\ElectricCalcsRe.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="disnet">
+      <HintPath>..\..\..\..\Downloads\dl_11_cs\disnet.dll</HintPath>
+    </Reference>
+    <Reference Include="disnet_d">
+      <HintPath>..\..\..\..\Downloads\dl_11_cs\disnet_d.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="dislnc_d.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="disnet_d.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="sheme2.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

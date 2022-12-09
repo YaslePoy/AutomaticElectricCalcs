@@ -1,0 +1,9 @@
+new seq
+	cap 1 C 9
+	cap 2 C 15
+	new par
+		cap 3 C 7
+		cap 4 C 3
+	end par
+	cap 5 C 21
+end seq

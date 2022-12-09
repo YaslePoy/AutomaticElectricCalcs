@@ -1,0 +1,18 @@
+type capitor
+new seq
+	new par
+		new seq
+			cap 1 C C1
+			cap 2 C C2
+			new par
+				cap 5 C C5
+				cap 6 C C6
+			end par
+		end seq
+		new seq
+			cap 3 C C3
+			cap 4 C C4
+		end seq
+	end par
+	cap 7 C C7 U U7
+end seq
