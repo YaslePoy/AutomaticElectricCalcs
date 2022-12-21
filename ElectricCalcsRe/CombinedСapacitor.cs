@@ -132,7 +132,7 @@ namespace ElectricCalcs
             Console.WriteLine($"Total U = {Math.Round(this.U, 3)} V");
             Console.WriteLine("----------Energy----------");
             countedC.ForEach(i => Console.WriteLine($"W{i.Id} = (Q{i.Id} * U{i.Id}) / 2 = ({Math.Round(i.Q, 3)}^-9 * {Math.Round(i.U, 3)}) / 2 = {Math.Round(i.W, 3)} mkJ"));
-            Console.WriteLine($"Total W = {Math.Round(this.W, 3)} mkJ");
+            Console.WriteLine($"Total W = (total Q * total U) / 2 = ({Math.Round(Q, 3)}^-9 * {Math.Round(U, 3)}) / 2 = {Math.Round(this.W, 3)} mkJ");
         }
     }
 }
